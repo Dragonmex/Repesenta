@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.ButtonStyle {
+    @apply 
+    
+    bg-laranja
+    m-1
+    text-sm
+    py-1
+    px-2
+    rounded-full
+    text-white
+    shadow-none;
+}
+
+.TableStyle {
+    @apply
+
+    py-4
+    px-8
+    border-0
+    bg-blue-grey-50
+    font-roboto
+    font-normal
+    text-cinza_escuro
+    rounded
+}
